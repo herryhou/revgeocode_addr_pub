@@ -1,0 +1,25 @@
+{
+  "name": "getaddr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app/server.js",
+    "dumpdb": "node ../../db/dumpdb.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "leveldown": "^1.4.1",
+    "levelup": "^1.2.1",
+    "ngeohash": "^0.6.0",
+    "async": "^1.5.2"
+  },
+  "devDependencies": {
+    "iconv-lite": "^0.4.13",
+    "lazy": "^1.0.11",
+    "proj4": "^2.3.12",
+    "request": "^2.65.0"
+  }
+}

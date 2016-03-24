@@ -1,0 +1,9 @@
+redis:
+  image: herryhou/geocoder-addr
+  domainname: maxwin.com.tw
+  hostname: geocoder-addr
+  ports:
+    - "3000:3000"
+  volumes:
+    - ../../db:/db
+  command: "npm start"
