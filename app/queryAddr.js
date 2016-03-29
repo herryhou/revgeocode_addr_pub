@@ -1,4 +1,4 @@
-var db_dir = '../db/leveldb/geoAddTC';
+var db_dir = '/db/leveldb/geoAddTC';
 var levelup = require('levelup');
 var db_des = levelup(db_dir);
 var geohash = require('ngeohash');

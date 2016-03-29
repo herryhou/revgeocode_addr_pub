@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./app/server.js",
+    "start": "node server.js",
     "dumpdb": "node ../../db/dumpdb.js"
   },
-  "author": "",
+  "author": "Herry Hou",
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.3",

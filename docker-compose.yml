@@ -1,9 +1,12 @@
-redis:
-  image: herryhou/geocoder-addr
+geocoder-addr:
+  #image: herryhou/geocoder-addr
+  build: ./
   domainname: maxwin.com.tw
   hostname: geocoder-addr
   ports:
     - "3000:3000"
-  volumes:
-    - ../../db:/db
+  #volumes:
+  #  - ../db:/db
   command: "npm start"
+  #sudo docker run -ti -v /vagrant/node-revgeocoder-addr/db:/db -p 3000:3000 run_geocoder-addr /bin/bash
+

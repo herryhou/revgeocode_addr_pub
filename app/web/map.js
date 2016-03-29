@@ -211,7 +211,7 @@ function click_addr(e) {
     //console.log(e.latlng);
     //var marker = L.marker(e.latlng).addTo(map);
     var latlng = e.latlng.lat + ',' + e.latlng.lng;
-    $.get("http://127.0.0.1:3000/addrLatlng/" + latlng, function(res) {
+    $.get("/addrLatlng/" + latlng, function(res) {
         kkk = res;
         var bounds = [
             [res.box[0], res.box[1]],
